@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.menu {
+  @apply text-lg font-bold;
+}
+
+.hero {
+  position: relative;
+  background-image: url("/hero.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  backdrop-filter: blur(8px);
+  background: rgba(0, 0, 0, 0.4); 
+  z-index: 0;
+}
+
+
+.hero > * {
+  position: relative;
+  z-index: 1;
+}
