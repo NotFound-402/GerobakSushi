@@ -62,7 +62,7 @@ const Hero = () => {
          <p className="text-center pb-8 pt-3 max-w-2xl mx-auto font-bold text-pretty sm:text-lg/relaxed text-gray-500 bg-white">Komitmen kami adalah memberikan pengalaman kuliner Jepang terbaik untuk Anda</p>   
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 bg-white px-4 sm:px-6 lg:px-8">
           {features.map((features, index) => {
-            const Icon = features.icon
+            const Icon = features.icon;
             return (
               <div
                 key={index}
