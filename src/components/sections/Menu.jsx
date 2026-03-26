@@ -61,39 +61,46 @@ const Menu = () => {
           Berbagai pilihan sushi dan makanan Jepang yang dibuat dengan bahan
           yang terbaik
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {menuItems.map((item, index) => (
-            <article
-              key={index}
-              className="relative overflow-hidden rounded-lg shadow-sm transition hover:shadow-lg"
-            >
-              <img
-                alt={item.name}
-                src={item.image || "/1.jpeg"}
-                className="h-56 w-full object-cover"
-              ></img>
-              {item.popular && (
-                <div className="absolute top-4 right-4 bg-red-600 text-white px-3 py-1 rounded-full text-sm">
-                  Popular
-                </div>
-              )}
-              <div className="bg-white p-4 sm:p-6">
-                <h3 className="mt-0.5 text-lg text-gray-900">{item.name}</h3>
-                <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500 mb-1">
-                  {item.description}
-                </p>
-                <div className="flex justify-between items-center">
-                  <span className="text-2xl font-bold text-red-600">
-                    {item.price}
-                  </span>
-                  <button className="bg-red-600 text-white px-6 my-4 py-2 rounded-full hover:bg-red-700 transition-colors">
-                    Pesan
-                  </button>
-                </div>
-              </div>
-            </article>
-          ))}
+        <div className="px-4 sm:px-6 lg:px-8">
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    {menuItems.map((item, index) => (
+      <article
+        key={index}
+        className="relative overflow-hidden rounded-lg shadow-sm transition hover:shadow-lg"
+      >
+        <img
+          alt={item.name}
+          src={item.image || "/1.jpeg"}
+          className="h-56 w-full object-cover"
+        />
+
+        {item.popular && (
+          <div className="absolute top-4 right-4 bg-red-600 text-white px-3 py-1 rounded-full text-sm">
+            Popular
+          </div>
+        )}
+
+        <div className="bg-white p-4 sm:p-6">
+          <h3 className="mt-0.5 text-lg text-gray-900">{item.name}</h3>
+
+          <p className="mt-2 line-clamp-3 text-sm text-gray-500 mb-1">
+            {item.description}
+          </p>
+
+          <div className="flex justify-between items-center">
+            <span className="text-2xl font-bold text-red-600">
+              {item.price}
+            </span>
+
+            <button className="bg-red-600 text-white px-4 py-2 rounded-full hover:bg-red-700 transition-colors">
+              Pesan
+            </button>
+          </div>
         </div>
+      </article>
+    ))}
+  </div>
+</div>
       </section>
     </div>
   );
