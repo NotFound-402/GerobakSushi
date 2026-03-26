@@ -60,7 +60,7 @@ const Hero = () => {
       </section>
       <h1 className="font-bold text-center pt-16 text-5xl">Mengapa Memilih Kami?</h1>
       <p className="text-center mb-8 mt-3 max-w-2xl mx-auto font-bold text-pretty sm:text-lg/relaxed text-gray-500">Komitmen kami adalah memberikan pengalaman kuliner Jepang terbaik untuk Anda</p>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 bg-white">
           {features.map((features, index) => {
             const Icon = features.icon;
             return (
@@ -71,7 +71,7 @@ const Hero = () => {
                 <div className="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
                   <Icon className="w-8 h-8 text-red-600" />
                 </div>
-                <h3 className="text-xl font-bold mb-3">{features.title}</h3>
+                <h3 className="text-xl font-bold mb-3 text-black">{features.title}</h3>
                 <p className="text-gray-600">{features.description}</p>
               </div>
             );
