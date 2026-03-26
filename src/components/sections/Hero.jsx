@@ -75,7 +75,7 @@ const Hero = () => {
                 <p className="text-gray-600">{features.description}</p>
               </div>
             );
-        })};
+        })}
         </div>
    </div>
   );
