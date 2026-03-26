@@ -17,8 +17,8 @@ const About = () => {
 
             {/* Content */}
             <div>
-              <h2 className="text-4xl md:text-5xl font-bold mb-6">
-                Tentang Gerobal Sushi
+              <h2 className="text-4xl md:text-5xl font-bold mb-6 text-black">
+                Tentang Gerobak Sushi
               </h2>
               <p className="text-lg text-gray-600 mb-6">
                 Sejak tahun 2010, Gerobal Sushi telah menjadi destinasi favorit
