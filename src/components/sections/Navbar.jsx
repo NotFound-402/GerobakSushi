@@ -15,7 +15,7 @@ const Navbar = () => {
               <div className="md:flex md:items-center md:gap-12">
                 <a className="block" href="#">
                   <span className="sr-only">Home</span>     
-                   <img src="/public/Gerobaksushi.svg" alt="Logo" className="h-15 rounded-4xl w-auto" />
+                   <img src="/Gerobaksushi.svg" alt="Logo" className="h-15 rounded-4xl w-auto" />
                 </a>
               </div>
 
