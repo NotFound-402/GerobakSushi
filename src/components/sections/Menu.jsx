@@ -53,7 +53,7 @@ const Menu = () => {
 
   return (
     <div>
-      <section id="menu" className="scroll-mt-20">
+      <section id="menu" className="scroll-mt-20 bg-white">
         <h1 className="font-bold text-center pt-16 text-5xl">
           Menu Unggulan Kami
         </h1>
