@@ -6,7 +6,7 @@ const Contact = () => {
     <section id="contact" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">Hubungi Kami</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-black">Hubungi Kami</h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Kami siap melayani Anda. Hubungi kami atau kunjungi restoran kami
           </p>
@@ -20,7 +20,7 @@ const Contact = () => {
                 <MapPin className="w-6 h-6 text-red-600" />
               </div>
               <div>
-                <h3 className="text-xl font-bold mb-2">Alamat</h3>
+                <h3 className="text-xl font-bold mb-2 text-black">Alamat</h3>
                 <p className="text-gray-600">
                   Jl. Sudirman No. 123
                   <br />
@@ -36,7 +36,7 @@ const Contact = () => {
                 <Phone className="w-6 h-6 text-red-600" />
               </div>
               <div>
-                <h3 className="text-xl font-bold mb-2">Telepon</h3>
+                <h3 className="text-xl font-bold mb-2 text-black">Telepon</h3>
                 <p className="text-gray-600">
                   +62 21 1234 5678
                   <br />
@@ -50,7 +50,7 @@ const Contact = () => {
                 <Mail className="w-6 h-6 text-red-600" />
               </div>
               <div>
-                <h3 className="text-xl font-bold mb-2">Email</h3>
+                <h3 className="text-xl font-bold mb-2 text-black">Email</h3>
                 <p className="text-gray-600">
                   info@gerobalsushi.com
                   <br />
@@ -64,7 +64,7 @@ const Contact = () => {
                 <Clock className="w-6 h-6 text-red-600" />
               </div>
               <div>
-                <h3 className="text-xl font-bold mb-2">Jam Operasional</h3>
+                <h3 className="text-xl font-bold mb-2 text-black">Jam Operasional</h3>
                 <p className="text-gray-600">
                   Senin - Jumat: 11:00 - 22:00
                   <br />
@@ -76,7 +76,7 @@ const Contact = () => {
 
           {/* Reservation Form */}
           <div id="reservasi" className="bg-gray-50 p-8 rounded-2xl">
-            <h3 className="text-2xl font-bold mb-6">Form Reservasi</h3>
+            <h3 className="text-2xl font-bold mb-6 text-black">Form Reservasi</h3>
             <form className="space-y-4">
               <div>
                 <label htmlFor="name" className="block text-gray-700 mb-2">
