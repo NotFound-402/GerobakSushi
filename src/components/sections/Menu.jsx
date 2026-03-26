@@ -54,7 +54,7 @@ const Menu = () => {
   return (
     <div>
       <section id="menu" className="scroll-mt-20 bg-white">
-        <h1 className="font-bold text-center pt-16 text-5xl">
+        <h1 className="font-bold text-center pt-16 text-5xl text-black">
           Menu Unggulan Kami
         </h1>
         <p className="text-center mb-8 mt-3 max-w-2xl mx-auto font-bold text-pretty sm:text-lg/relaxed text-gray-500">
