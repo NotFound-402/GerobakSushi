@@ -57,7 +57,7 @@ const Menu = () => {
         <h1 className="font-bold text-center pt-16 text-5xl text-black">
           Menu Unggulan Kami
         </h1>
-        <p className="text-center mb-8 mt-3 max-w-2xl mx-auto font-bold text-pretty sm:text-lg/relaxed text-gray-500">
+        <p className="text-center px-4 sm:px-6 lg:px-8 mb-8 mt-3 max-w-2xl mx-auto font-bold text-pretty sm:text-lg/relaxed text-gray-500">
           Berbagai pilihan sushi dan makanan Jepang yang dibuat dengan bahan
           yang terbaik
         </p>
